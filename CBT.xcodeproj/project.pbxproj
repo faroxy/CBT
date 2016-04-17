@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37D74671CC3A95E006AD21E /* situation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D74661CC3A95E006AD21E /* situation.swift */; };
 		E39746411CC3284000CB42E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39746401CC3284000CB42E7 /* AppDelegate.swift */; };
 		E39746431CC3284000CB42E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39746421CC3284000CB42E7 /* ViewController.swift */; };
 		E39746461CC3284000CB42E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39746441CC3284000CB42E7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E37D74661CC3A95E006AD21E /* situation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = situation.swift; sourceTree = "<group>"; };
 		E397463D1CC3284000CB42E7 /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39746401CC3284000CB42E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E39746421CC3284000CB42E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E39746401CC3284000CB42E7 /* AppDelegate.swift */,
 				E39746421CC3284000CB42E7 /* ViewController.swift */,
+				E37D74661CC3A95E006AD21E /* situation.swift */,
 				E39746441CC3284000CB42E7 /* Main.storyboard */,
 				E39746471CC3284000CB42E7 /* Assets.xcassets */,
 				E39746491CC3284000CB42E7 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37D74671CC3A95E006AD21E /* situation.swift in Sources */,
 				E39746431CC3284000CB42E7 /* ViewController.swift in Sources */,
 				E39746411CC3284000CB42E7 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				E39746671CC3284000CB42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E39746681CC3284000CB42E7 /* Build configuration list for PBXNativeTarget "CBTTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E397466A1CC3284000CB42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E397466B1CC3284000CB42E7 /* Build configuration list for PBXNativeTarget "CBTUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E397466D1CC3284000CB42E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
