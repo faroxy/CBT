@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func button1(sender: UIButton) {
-                label.text = "CBT2"
+                label.text = "CBTxd"
         
     }
 
