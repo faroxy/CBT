@@ -67,11 +67,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNq-Cd-AtT">
-                                <rect key="frame" x="278" y="520" width="45" height="30"/>
-                                <state key="normal" title="つぎへ"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="春はあけぼの。やうやう白くなりゆく、山ぎはすこしあかりて、むらさきだちたる雲のほそくたなびきたる。" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hi8-CG-XCc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どのような辛い悲しい、又は、怒りを感じるようなことがありましたか？" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hi8-CG-XCc">
                                 <rect key="frame" x="20" y="50" width="560" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8Nd-Zg-zbm"/>
@@ -80,16 +76,32 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNq-Cd-AtT">
+                                <rect key="frame" x="278" y="520" width="45" height="30"/>
+                                <state key="normal" title="つぎへ"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ここに記入してね" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UMj-yV-BGY">
+                                <rect key="frame" x="20" y="220" width="560" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="hbz-il-59M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Hi8-CG-XCc" secondAttribute="trailing" id="5cI-kh-GMO"/>
                             <constraint firstItem="CVK-w1-STK" firstAttribute="leading" secondItem="2j6-Wb-XtB" secondAttribute="leadingMargin" id="604-8H-8p8"/>
                             <constraint firstItem="Epw-se-8PC" firstAttribute="top" secondItem="fNq-Cd-AtT" secondAttribute="bottom" constant="50" id="63q-hp-D4k"/>
+                            <constraint firstItem="fNq-Cd-AtT" firstAttribute="top" secondItem="UMj-yV-BGY" secondAttribute="bottom" constant="100" id="9DF-Ja-0qh"/>
                             <constraint firstItem="Hi8-CG-XCc" firstAttribute="leading" secondItem="2j6-Wb-XtB" secondAttribute="leadingMargin" id="EvC-nM-nj3"/>
                             <constraint firstItem="fNq-Cd-AtT" firstAttribute="centerX" secondItem="2j6-Wb-XtB" secondAttribute="centerX" id="ZBV-gD-3h9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UMj-yV-BGY" secondAttribute="trailing" id="b99-1E-rsh"/>
                             <constraint firstItem="Hi8-CG-XCc" firstAttribute="top" secondItem="MB3-Om-elI" secondAttribute="bottom" constant="30" id="bld-nj-PL7"/>
                             <constraint firstItem="CVK-w1-STK" firstAttribute="top" secondItem="MB3-Om-elI" secondAttribute="bottom" id="qJb-iZ-VLT"/>
+                            <constraint firstItem="UMj-yV-BGY" firstAttribute="leading" secondItem="2j6-Wb-XtB" secondAttribute="leadingMargin" id="yJY-2G-OBU"/>
                         </constraints>
                     </view>
                 </viewController>
