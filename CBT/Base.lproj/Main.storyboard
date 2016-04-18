@@ -76,6 +76,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNq-Cd-AtT">
+                                <rect key="frame" x="278" y="520" width="45" height="30"/>
+                                <state key="normal" title="つぎへ"/>
+                                <connections>
+                                    <segue destination="YYm-IQ-tTj" kind="unwind" unwindAction="unWindows:" id="TTa-hS-lyn"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ここに記入してね" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UMj-yV-BGY">
                                 <rect key="frame" x="20" y="220" width="560" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -85,13 +92,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNq-Cd-AtT">
-                                <rect key="frame" x="278" y="520" width="45" height="30"/>
-                                <state key="normal" title="つぎへ"/>
-                                <connections>
-                                    <segue destination="YYm-IQ-tTj" kind="unwind" unwindAction="unWindows:" id="aww-pH-PnO"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -107,6 +107,9 @@
                             <constraint firstItem="UMj-yV-BGY" firstAttribute="leading" secondItem="2j6-Wb-XtB" secondAttribute="leadingMargin" id="yJY-2G-OBU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="situation" destination="UMj-yV-BGY" id="zeT-Yb-usb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vzK-zy-MdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YYm-IQ-tTj" userLabel="Exit" sceneMemberID="exit"/>
